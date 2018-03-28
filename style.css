@@ -1,0 +1,117 @@
+html {
+  font-size: 18px;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: 'Josefin Slab', serif;
+  margin: 3rem 0 6rem 0;
+}
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-around;
+}
+.topbar .topmenu {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+.topbar .topmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.topbar .topmenu ul li a {
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all .33s;
+}
+.topbar .topmenu ul li a:hover {
+  background-color: #da521e;
+  color: white;
+}
+.topbar .topmenu ul li.current-menu-item {
+  background-color: #da521e;
+  color: white;
+}
+#main-title {
+  width: 1170px;
+  margin: 0 auto;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#main-title header {
+  font-size: 3rem;
+  font-family: 'Permanent Marker', cursive;
+  color: #da521e;
+}
+#main-content {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+#main-content .sidebar {
+  padding: 0 10px;
+  margin-right: -10px;
+  width: 390px;
+  order: 1;
+}
+#main-content .sidebar .box {
+  background-color: white;
+  margin: 40px 0;
+  padding: 40px;
+  border: 1px solid #e7e7e7;
+}
+#main-content .sidebar .box:first-of-type {
+  margin-top: 0;
+}
+#main-content .sidebar .box:last-of-type {
+  margin-bottom: 0;
+}
+#main-content .main {
+  padding: 0 10px;
+  margin-left: -10px;
+  flex-grow: 1;
+  order: 0;
+}
+#main-content .main img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+#main-content .main article {
+  background-color: white;
+  margin: 40px 0;
+  padding: 40px;
+  border: 1px solid #e7e7e7;
+}
+#main-content .main article:first-of-type {
+  margin-top: 0;
+}
+#main-content .main article::last-of-type {
+  margin-bottom: 0;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222222;
+  color: #888888;
+  height: 4rem;
+}
+/*# sourceMappingURL=./style.css.map */
